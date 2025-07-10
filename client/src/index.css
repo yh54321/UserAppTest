@@ -1,0 +1,54 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css";
+
+#container {
+    width: 600px;
+    height: 420px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left-margin {
+    margin-left: 10px;
+}
+
+.user-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.user-name {
+  font-size: 16px;
+}
+
+.delete-button {
+  padding: 4px 8px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+#buttonDiv {
+    position: absolute;
+    bottom: 17px;
+}
+
+#scrollDiv {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  padding-right: 10px;
+}
